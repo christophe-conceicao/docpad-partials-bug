@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title>Test</title>
+
+	<%- @partial("one.html.eco") %>
+	<%- @partial("two.html.eco") %>
+
+	<%- @content %>
+
+</body>
+</html>
